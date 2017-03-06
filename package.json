@@ -13,7 +13,6 @@
     "cloudinary",
     "weather"
   ],
-  "main": "app.js",
   "dependencies": {
     "forecast": "*",
     "cloudinary": "*"
