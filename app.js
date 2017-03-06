@@ -2,7 +2,7 @@
 var Forecast = require('forecast');
 var cloudinary = require('cloudinary');
 
-module.exports = function(context, cb, res) {
+module.exports = (context, cb, res) => {
 
   // Configure secrets
   var darkSkyAPIKey = context.data.darkSkyApiKey;
@@ -36,7 +36,7 @@ module.exports = function(context, cb, res) {
   res.writeHead(200, { 'Content-Type': 'text/html '});
 
   // Retrieve weather information from coordinates (Belgrade, Serbia) and display gif depending on the forecast
-  forecast.get([44.7866, 20.4489], function(err, weather) {
+  forecast.get([44.7866, 20.4489], (err, weather) => {
     if (err) cb(null, 'Error retrieving data.');
 
     switch (weather.currently.summary) {
