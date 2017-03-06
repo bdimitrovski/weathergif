@@ -1,5 +1,5 @@
 # WeatherGIF
-A simple node.js app that works with webtask.io to show the current weather using GIFs.
+A simple node.js app that works with webtask.io (https://webtask.io/) to show the current weather using GIFs.
 
 ## Usage
 - End users: Just visit this link in your browser: https://wt-2ae92d94dc01d22c4a4ef289252be7b2-0.run.webtask.io/app
