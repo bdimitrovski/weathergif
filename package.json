@@ -1,0 +1,27 @@
+{
+  "name": "weathergif",
+  "version": "1.0.0",
+  "description": "A simple node.js app that works with webtask.io to show weather using GIFs",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bdimitrovski/weathergif.git"
+  },
+  "keywords": [
+    "nodejs",
+    "forecast",
+    "cloudinary",
+    "weather"
+  ],
+  "main": "app.js",
+  "dependencies": {
+    "forecast": "*",
+    "cloudinary": "*"
+  },
+  "author": "Bojan Dimitrovski",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bdimitrovski/weathergif/issues"
+  },
+  "homepage": "https://github.com/bdimitrovski/weathergif#readme"
+}
